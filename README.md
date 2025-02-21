@@ -1,6 +1,7 @@
 # Task Manager App
 
 A simple yet powerful React-based task management application that allows users to create tasks, track their progress with timers, and summarize completed tasks with total time spent. The app features a clean, modern UI with smooth animations and a dark theme.
+Check out the demo version of the app here: [React Todo App Demo](https://seweryn999.github.io/react-todoapp-electron/)
 
 ## Features
 - **Add Tasks**: Easily add new tasks via an input field.
