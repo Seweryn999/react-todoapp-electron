@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Seweryn999/react-todoapp-electron/static/css/main.f08e48f1.css",
+    "main.js": "/Seweryn999/react-todoapp-electron/static/js/main.a0bdd88a.js",
+    "index.html": "/Seweryn999/react-todoapp-electron/index.html",
+    "main.f08e48f1.css.map": "/Seweryn999/react-todoapp-electron/static/css/main.f08e48f1.css.map",
+    "main.a0bdd88a.js.map": "/Seweryn999/react-todoapp-electron/static/js/main.a0bdd88a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f08e48f1.css",
+    "static/js/main.a0bdd88a.js"
+  ]
+}
