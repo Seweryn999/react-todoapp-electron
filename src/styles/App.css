@@ -1,0 +1,43 @@
+:root {
+  --primary-dark: #333;
+  --secondary-dark: #444;
+  --card-bg: #555;
+  --text-light: #ffffff;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --border-radius: 10px;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: var(--text-light);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.app-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: var(--spacing-sm);
+  letter-spacing: 1px;
+}
+
+.task-board {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+}

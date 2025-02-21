@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../styles/Timer.css";
 
 function Timer({ timers, tasks }) {
   const [timeElapsed, setTimeElapsed] = useState({});
@@ -17,15 +18,17 @@ function Timer({ timers, tasks }) {
   }, [timers]);
 
   return (
-    <div>
-      <h3>Timer</h3>
-      <ul>
-        {Object.keys(timers).map((index) => (
-          <li key={index}>
-            Task: {tasks[index]?.text} - Time: {timeElapsed[index] || 0}s
-          </li>
-        ))}
-      </ul>
+    <div className="timer-container">
+      <h3 className="timer-header">TIME FOR TASK #{}</h3>
+      <div className="timer-display">
+        <ul>
+          {Object.keys(timers).map((index) => (
+            <li key={index}>
+              Task: {tasks[index]?.text} - Time: {timeElapsed[index] || 0}s
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

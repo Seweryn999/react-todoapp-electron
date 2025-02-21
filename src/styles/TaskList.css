@@ -1,0 +1,47 @@
+.task-list {
+  background-color: var(--secondary-dark);
+  padding: var(--spacing-md);
+  width: 45%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.section-header {
+  font-size: 1.2rem;
+  background-color: #666;
+  padding: var(--spacing-sm);
+  border-radius: 5px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.start-button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 5px var(--spacing-sm);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.done-button {
+  background-color: #28a745;
+  color: var(--text-light);
+  border: none;
+  padding: 5px var(--spacing-sm);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.start-button:hover {
+  background-color: #d4a800;
+  transform: scale(1.05);
+}
+
+.done-button:hover {
+  background-color: #1e7e34;
+  transform: scale(1.05);
+}

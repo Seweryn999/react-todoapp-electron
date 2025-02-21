@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/TaskList.css";
 
 function TaskList({ tasks, setTasks, setTimers, setCompletedTasks, timers }) {
   const startTask = (index) => {
@@ -23,14 +24,14 @@ function TaskList({ tasks, setTasks, setTimers, setCompletedTasks, timers }) {
   };
 
   return (
-    <div>
-      <h3>Active Tasks</h3>
+    <div className="task-list">
+      <h3 className="section-header">TO DO</h3>
       <ul>
         {tasks.map((task, index) => (
-          <li key={index}>
-            {task.text}{" "}
-            <button onClick={() => startTask(index)}>Start</button>
-            <button onClick={() => completeTask(index)}>Done</button>
+          <li key={index} className="task-item">
+            {task.text}
+            <button className="start-button" onClick={() => startTask(index)}>Start</button>
+            <button className="done-button" onClick={() => completeTask(index)}>Done</button>
           </li>
         ))}
       </ul>

@@ -1,0 +1,27 @@
+.timer-container {
+  background-color: var(--secondary-dark);
+  padding: var(--spacing-md);
+  width: 45%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.timer-header {
+  font-size: 1.2rem;
+  background-color: #222;
+  padding: var(--spacing-sm);
+  color: var(--text-light);
+  border-radius: 5px;
+}
+
+.timer-display {
+  background-color: #0056b3;
+  color: var(--text-light);
+  padding: var(--spacing-lg);
+  margin-top: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}

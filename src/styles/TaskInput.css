@@ -1,0 +1,35 @@
+.task-input {
+  margin-bottom: var(--spacing-lg);
+}
+
+.task-input-field {
+  padding: var(--spacing-sm);
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-right: var(--spacing-sm);
+  background-color: #fff;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.task-input-field:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.add-task-button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: #007bff;
+  color: var(--text-light);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
