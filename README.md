@@ -100,8 +100,6 @@ task-manager-app/
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Built with inspiration from classic to-do list apps.
@@ -109,20 +107,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For questions or feedback, feel free to reach out:
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
-```
+- GitHub: [seweryn999](https://github.com/seweryn999)
+- Email: seweryn.webdev@gmail.com
 
-### Instructions for Customization:
-1. **Replace Placeholders**:
-   - Change `https://github.com/your-username/task-manager-app.git` to your actual repository URL.
-   - Update `your-username` and `your-email@example.com` with your GitHub username and email.
-   - Add a demo link if you deploy the app (e.g., via Vercel or Netlify).
+Readme.md was written with a help of Grok.
 
-2. **Add a License File**:
-   - If you want to include an MIT License, create a `LICENSE` file in the root directory with the standard MIT text.
 
-3. **Screenshots or GIFs** (Optional):
-   - Add a section like `## Screenshots` and include images or GIFs of the app in action by uploading them to the repo and linking them (e.g., `![Screenshot](screenshots/app.png)`).
-
-This README is professional, concise, and provides all the necessary information for someone to understand, install, and contribute to your project. Paste it into your repository’s `README.md` file, and you’re good to go!
