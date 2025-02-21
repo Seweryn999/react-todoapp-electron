@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "main": "public/main.js",
-  "homepage": "https://github.com/Seweryn999/react-todoapp-electron",
+  "homepage": "https://seweryn999.github.io/react-todoapp-electron/",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
