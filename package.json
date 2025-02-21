@@ -14,21 +14,22 @@
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
     "wait-on": "^8.0.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^6.0.0"
   },
   "main": "public/main.js",
-  "homepage": "https://seweryn999.github.io/react-todoapp-electron/",
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "electron:serve": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm run electron:start\"",
-  "electron:build": "",
-  "electron:start": "wait-on tcp:3000 && electron ."
-},
+  "homepage": "https://seweryn999.github.io/react-todoapp-electron",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron:serve": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm run electron:start\"",
+    "electron:build": "electron-builder",
+    "electron:start": "wait-on tcp:3000 && electron ."
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
